@@ -58,7 +58,9 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+
+    solarized-theme))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; Interface will have a different environment than a shell in a
