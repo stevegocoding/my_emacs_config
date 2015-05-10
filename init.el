@@ -75,6 +75,8 @@
   (when (not (package-installed-p package))
     (package-install package)))
 
+(add-to-list 'exec-path "/usr/local/bin")
+
 ;;;;
 ;; Customization
 ;;;;
@@ -86,3 +88,4 @@
 ;; These customizations change the way emacs looks and disable/enable
 ;; some user interface elements
 (load "ui.el")
+(load "edit.el")
