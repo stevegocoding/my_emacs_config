@@ -38,3 +38,10 @@
 (add-to-list 'custom-theme-load-path (expand-file-name "~/.emacs.d/themes"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/themes"))
 (load-theme 'solarized t)
+
+;; These two lines are just examples
+(setq powerline-arrow-shape 'curve)
+(setq powerline-default-separator-dir '(right . left))
+;; These two lines you really need.
+(setq sml/theme 'light)
+(sml/setup)
